@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PGProject1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output=".\PGProject1" prefix_auto="1" extension_auto="1" />
+				<Option object_output=".\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:\Biblioteca SDL\SDL-1.2.14\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL -lopengl32 -lglu32" />
+					<Add directory="C:\Biblioteca SDL\SDL-1.2.14\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output=".\SDLGLTemplate" prefix_auto="1" extension_auto="1" />
+				<Option object_output=".\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Model3D.cpp" />
+		<Unit filename="Model3D.h" />
+		<Unit filename="Vector3.cpp" />
+		<Unit filename="Vector3.h" />
+		<Unit filename="includes.h" />
+		<Unit filename="instricCalc.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="shapes.cpp" />
+		<Unit filename="shapes.h" />
+		<Unit filename="util.cpp" />
+		<Unit filename="util.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

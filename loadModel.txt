@@ -1,0 +1,9 @@
+whale.obj
+eagle.obj
+camel.obj
+chimp.obj
+cubo1.obj
+lion.obj
+shark.obj
+spheretri.obj
+whale.obj

@@ -1,0 +1,2 @@
+warning: image.bmp's width is not a power of 2
+warning: image.bmp's height is not a power of 2
